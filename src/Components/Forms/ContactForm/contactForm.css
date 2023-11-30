@@ -1,0 +1,36 @@
+@import 'index.css';
+
+.contact-form {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid var(--black-color);
+    padding: 3%;
+}
+
+.contact .grupoInput {
+    width: 70%;
+}
+
+.contact-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 30px;
+    margin: 20% auto;
+    background-color: var(--main-bg-color);
+    color: var(--white-color);
+    cursor: pointer;
+}
+.contact-textarea{
+    border-radius: 20px;
+    padding: 15px;
+    background-color: rgb(167, 203, 203);
+}
+.span-form{
+    display: block;
+    color: tomato;
+    font-size: small;
+}
